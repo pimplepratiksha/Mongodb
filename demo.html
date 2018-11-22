@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hackers news - rss2json.com</title>
+</head>
+<body>
+<div id="content"></div>
+
+<script type="text/javascript">
+    var content = document.getElementById('content');
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.onreadystatechange = function(){
+        if (xhr.readyState==4 && xhr.status==200)
+        {
+            var data = JSON.parse(xhr.responseText);
+            var itemsContainer = document.createElement('DIV');
+
+            if(data.status == 'ok'){
+
+
+                for( var i=0,t = data.items.length ; i < t ; ++i ){
+                    var item = data.items[i];
+                    var itemContainer = document.createElement('DIV');
+
+                    var itemTitleElement = document.createElement('H2');
+                    var itemLinkElement = document.createElement('A');
+                    var itemDescriptionElement = document.createElement('P');
+
+
+                    itemLinkElement.setAttribute('href' , item.link);
+                    itemLinkElement.innerText = item.title;
+                    itemTitleElement.appendChild(itemLinkElement);
+
+                    // note : make sure the content is XSS safe before using innerHTML
+                    itemDescriptionElement.innerHTML = item.description;
+
+                    itemContainer.appendChild(itemTitleElement);
+                    itemContainer.appendChild(itemDescriptionElement);
+
+                    itemsContainer.appendChild(itemContainer);
+
+                }
+
+
+
+                var titleElement = document.createElement('H1');
+                titleElement.innerText = data.feed.title;
+
+                content.appendChild(titleElement);
+                content.appendChild(itemsContainer);
+
+
+            }
+        }
+    };
+    xhr.open(
+        'GET',
+       /home/pratiksha/MSc/ADT/rss
+
+        true
+    );
+    xhr.send();
+
+</script>
+</body>
+</html>
+

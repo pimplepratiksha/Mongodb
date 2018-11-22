@@ -1,0 +1,83 @@
+{
+  "rss": {
+    "-version": "2.0",
+    "channel": {
+      "title": [
+        "W3Schools Home Page",
+        "Example Channel",
+        "Example Channel",
+        "News for September the First"
+      ],
+      "link": [
+        "https://www.w3schools.com",
+        "http://example.com/",
+        "http://example.com/",
+        "http://example.com/2002/09/01/"
+      ],
+      "description": [
+        "Free web building tutorials",
+        "My example channel",
+        "My example channel",
+        "other things happened today"
+      ],
+      "item": [
+        {
+          "title": "RSS Tutorial",
+          "link": "https://www.w3schools.com/xml/xml_rss.asp",
+          "description": "New RSS tutorial on W3Schools"
+        },
+        {
+          "title": "XML Tutorial",
+          "link": "https://www.w3schools.com/xml",
+          "description": "New XML tutorial on W3Schools"
+        },
+        {
+          "title": "News for September the Second",
+          "link": "http://example.com/2002/09/01",
+          "description": "other things happened today"
+        },
+        {
+          "title": "News for September the First",
+          "link": "http://example.com/2002/09/02"
+        },
+        {
+          "title": " XML Articles from [Your Website] ",
+          "description": " Exciting new offerings from the world of XML and [Your Website] ",
+          "link": "http://yourwebsite.com/xml-articles.htm"
+        },
+        {
+          "title": " XML Articles from [Your Website] ",
+          "description": " Exciting new offerings from the world of XML and [Your Website] ",
+          "link": "http://youwebsite.com/xml-articles.htm"
+        },
+        {
+          "title": " Web Design/HTML by [Your Website] ",
+          "description": " Keep up-to-date on all the tips and tricks in web design with yourwebsite.com",
+          "link": "http://yourwebsite.com/"
+        },
+        {
+          "title": " XML Articles from [Your Website] ",
+          "description": " Exciting new offerings from the world of XML and [Your Website] ",
+          "link": "http://youwebsite.com/xml-articles.htm"
+        },
+        {
+          "title": " Web Design/HTML by [Your Website] ",
+          "description": " Keep up-to-date on all the tips and tricks in web design with yourwebsite.com",
+          "link": "http://yourwebsite.com/"
+        }
+      ],
+      "earth": {
+        "title": "Earth Invaded",
+        "link": "http://news.example.com/2004/12/17/invasion",
+        "description": "The earth was attacked by an invasion fleet from halfway across the galaxy; luckily, a fatal miscalculation of scale resulted in the entire armada being eaten by a small dog."
+      },
+      "entry": {
+        "title": "Atom-Powered Robots Run Amok",
+        "link": { "-href": "http://example.org/2003/12/13/atom03" },
+        "id": "urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a",
+        "updated": "2003-12-13T18:30:02Z",
+        "summary": "Some text."
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+introduction to NOSQL and mongodb
+
+mongodb -- 
+
+sudo service mongod start
+[sudo] password for pratiksha: 
+
+pratiksha@PP-HP-Pavilion-Sleekbook-14:~/MSc/ADT$ [initandlisten] waiting for connections on 2496 27017
+[initandlisten]: command not found
+
+pratiksha@PP-HP-Pavilion-Sleekbook-14:~/MSc/ADT$ mongo --host 127.0.0.1:27017   or mongo
+MongoDB shell version v4.0.2
+connecting to: mongodb://127.0.0.1:27017/
+MongoDB server version: 4.0.2
+Server has startup warnings: 
+2018-09-24T21:32:48.960+0530 I STORAGE  [initandlisten] 
+2018-09-24T21:32:48.960+0530 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+2018-09-24T21:32:48.960+0530 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+2018-09-24T21:32:51.408+0530 I CONTROL  [initandlisten] 
+2018-09-24T21:32:51.408+0530 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-09-24T21:32:51.408+0530 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-09-24T21:32:51.408+0530 I CONTROL  [initandlisten] 
+---
+Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+and anyone you share the URL with. MongoDB may use this information to make product
+improvements and to suggest MongoDB products and deployment options to you.
+
+To enable free monitoring, run the following command: db.enableFreeMonitoring()
+To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+
+> show dbs
+admin   0.000GB
+config  0.000GB
+local   0.000GB
+> ctrl+D 
+bye
+
+******************************************************************************
+
+use social_feeds;
+
+db.feeds.insert({"name": "Himalaya Moisturizing Aloe Vera Face Wash","description": " Rich in enzymes, polysaccharides and nutrients Its hydrating, softening and intense moisturizing properties nourish the skin ","link": "https://www.amazon.in/Himalaya-Moisturizing-Aloe-Vera-200ml/dp/B074M3Z6Q5/ref=sr_1_2?s=beauty&rps=1&ie=UTF8&qid=1538305627&sr=1-2&refinements=p_85%3A10440599031%2Cp_89%3AHimalaya%2Cp_6%3AAT95IG9ONZD7S","price": "140"});
+
+
+db.feeds.insertMany([,,,]);
+db.feeds.find();
+db.feeds.find().pretty();
+
+********************************************************************************
+
+> db
+test
+> show dbs;
+admin         0.000GB
+config        0.000GB
+local         0.000GB
+sk            0.000GB
+social_feeds  0.000GB
+> use sk;
+switched to db sk
+> db
+sk
+> use social_feeds;
+switched to db social_feeds
+> db
+social_feeds
+
+
+
+************************************************************
+mongod ls /data/db | less 

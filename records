@@ -1,0 +1,109 @@
+<?xml version="2.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>RSS records</title>
+  <description>about rss</description>
+
+  <item>
+    <title>RSS Tutorial</title>
+    <link>https://www.w3schools.com/xml/xml_rss.asp</link>
+    <description>New RSS tutorial on W3Schools</description>
+  </item>
+
+  <item>
+    <title>XML Tutorial</title>
+    <link>https://www.w3schools.com/xml</link>
+    <description>New XML tutorial on W3Schools</description>
+  </item>
+
+<earth>
+<title>Earth Invaded</title>
+  <link>http://news.example.com/2004/12/17/invasion</link>
+  <description>The earth was attacked by an invasion fleet from halfway across the galaxy; luckily, a fatal miscalculation of scale resulted in the entire armada being eaten by a small dog.</description>
+</earth>
+
+  
+    <item>
+       <title>News for September the Second</title>
+       <link>http://example.com/2002/09/01</link>
+       <description>other things happened today</description>
+    </item>
+  
+    <item>
+       <title>News for September the First</title>
+       <link>http://example.com/2002/09/02</link>
+    </item>
+  
+    <items>
+        <rdf:li resource="http://example.com/2002/09/01/"/>
+        <rdf:li resource="http://example.com/2002/09/02/"/>
+    </items>
+  
+  <item rdf:about="http://example.com/2002/09/01/">
+     <title>News for September the First</title>
+     <link>http://example.com/2002/09/01/</link>
+     <description>other things happened today</description>
+     <dc:date>2002-09-01</dc:date>
+  </item>
+  
+  <item rdf:about="http://example.com/2002/09/02/">
+     <title>News for September the Second</title>
+     <link>http://example.com/2002/09/02/</link>
+     <dc:date>2002-09-02</dc:date>
+  </item>
+  
+  
+<item>
+<title> XML Articles from [Your Website] </title>
+<description> Exciting new offerings from the world of XML and [Your Website] </description>
+<link>http://yourwebsite.com/xml-articles.htm</link>
+</item>
+
+<item>
+<title> XML Articles from [Your Website] </title>
+<description> Exciting new offerings from the world of XML and [Your Website] </description>
+<link>http://youwebsite.com/xml-articles.htm</link>
+</item>
+
+<item>
+<title> Web Design/HTML by [Your Website] </title>
+<description> Keep up-to-date on all the tips and tricks in web design with yourwebsite.com</description>
+<link>http://yourwebsite.com/</link>
+</item>
+
+
+<item>
+<title> XML Articles from [Your Website] </title>
+<description> Exciting new offerings from the world of XML and [Your Website] </description>
+<link>http://youwebsite.com/xml-articles.htm</link>
+</item>
+
+<item>
+<title> Web Design/HTML by [Your Website] </title>
+<description> Keep up-to-date on all the tips and tricks in web design with yourwebsite.com</description>
+<link>http://yourwebsite.com/</link>
+</item>
+
+<item>
+    <title>RSS Tutorial</title>
+    <link>https://www.w3schools.com/xml/xml_rss.asp</link>
+    <description>New RSS tutorial on W3Schools</description>
+  </item>
+
+ <item>
+    <title>Amazon</title>
+    <link>https://www.w3schools.com/xml</link>
+    <description>New XML tutorial on W3Schools</description>
+  </item>
+
+
+
+
+
+
+
+</channel>
+
+
+</rss> 

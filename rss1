@@ -1,0 +1,15 @@
+<?xml version= "1.0"?>
+<rss version= "2.0">
+<channel>
+<item>
+<title> XML Articles from [Your Website] </title>
+<description> Exciting new offerings from the world of XML and [Your Website] </description>
+<link>http://youwebsite.com/xml-articles.htm</link>
+</item>
+<item>
+<title> Web Design/HTML by [Your Website] </title>
+<description> Keep up-to-date on all the tips and tricks in web design with yourwebsite.com</description>
+<link>http://yourwebsite.com/</link>
+</item>
+</channel>
+</rss>

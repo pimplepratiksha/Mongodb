@@ -1,0 +1,19 @@
+{
+	"rss": {
+		"channel": {
+			"item": [
+				{
+					"title": "XML Articles from [Your Website]",
+					"description": "Exciting new offerings from the world of XML and [Your Website]",
+					"link": "http://youwebsite.com/xml-articles.htm"
+				},
+				{
+					"title": "Web Design/HTML by [Your Website]",
+					"description": "Keep up-to-date on all the tips and tricks in web design with yourwebsite.com",
+					"link": "http://yourwebsite.com/"
+				}
+			]
+		},
+		"_version": "2.0"
+	}
+}
